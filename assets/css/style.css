@@ -170,6 +170,65 @@ main {
 }
 
 
+/* Footer */ 
+
+footer { 
+
+    background-color: #dadada; 
+    
+    width: 100%; 
+    
+    color: #3a3a3a; 
+    
+    height: 250px; 
+    
+    display: flex; 
+    
+    flex-direction: column; 
+    
+    text-align: center; 
+    
+    } 
+    
+     
+    
+    .networks { 
+    
+    display: flex;  
+    
+    font-size: 35px; 
+    
+    gap: 20px; 
+    
+    margin-top: 50px; /* Adjusted for spacing between icons */ 
+    
+    justify-content: center; 
+    
+    } 
+    
+    .info { 
+    
+    display: flex; 
+    
+    flex-direction: column; /* Stacks paragraphs vertically */ 
+    
+    align-items: center; /* Centers text horizontally */ 
+    
+    font-size: 16px; 
+    
+    margin-top: 20px; /* Optional: space between social links and info section */ 
+    
+    } 
+    
+     
+    
+    .info p { 
+    
+    margin: 5px 0; /* Adds space between each paragraph */ 
+    
+    } 
+
+
 @media screen and (min-width: 576px) { 
 
     
