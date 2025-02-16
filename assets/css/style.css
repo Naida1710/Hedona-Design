@@ -111,6 +111,33 @@ header p {
             
             } 
 
+/* Button CTA */ 
+.button { 
+    padding: 10px 20px; 
+    color: white; 
+    background-color: #5c1538; 
+    font-size: 1.1em; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    transition: background-color 0.3 ease; 
+    margin-top: 30px; 
+    margin-bottom: 10px; 
+    } 
+    
+.button:hover { 
+    background-color: #741B47; 
+    } 
+    
+hr { 
+    width: 60%; 
+    margin: 30px auto; 
+    border: 0; 
+    border-top: 2px solid #dadada; 
+    } 
+    
+     
+
 /* Nav bar and menu list */
 nav { 
     display: flex; 
