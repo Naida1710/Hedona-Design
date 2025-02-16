@@ -43,27 +43,16 @@ body {
 
 
 header { 
-
     background-color: #ffffff; 
-    
     position: fixed; 
-    
     z-index: 99; 
-    
     width: 100%; 
-    
     height: 90px; 
-    
     display: flex; 
-    
     justify-content: center; 
-    
     align-items: center; 
-    
     box-shadow: 0 2px 2px #dadada; 
-    
     border-top: 2px solid #dadada; 
-    
     margin-top: 10px;  
     
     } 
