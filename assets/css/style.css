@@ -131,9 +131,12 @@ header {
         letter-spacing: 2px; 
         
         text-decoration: none;  
-        
-        } 
-        
+
+    
+    } 
+     
+
+   
          
         
        
@@ -165,4 +168,83 @@ header {
 main {
     flex: 1 0 auto;
 }
+
+
+@media screen and (min-width: 576px) { 
+
+    
+    } 
+    
+     
+    
+    @media screen and (min-width: 768px){ 
+    
+    nav { 
+    
+    display: block; 
+    
+    position: relative; 
+    
+    box-shadow: none; 
+    
+    width: fit-content; 
+    
+    padding: 1rem; 
+    
+    } 
+    
+    #menu { 
+    
+    display: flex; 
+    
+    } 
+    
+    #menu > li { 
+    
+    padding: center; 
+    
+     
+    
+    } 
+    
+     
+    
+    
+    #logo { 
+    
+    font-size: 100px; 
+    
+    line-height: 75px; 
+    
+    margin: 0 0.5rem; 
+    
+    } 
+    
+     
+    
+    main { 
+    
+    margin-top: 79px; 
+    
+    } 
+    
+     
+    
+    } 
+    
+     
+    
+    @media screen and (min-width: 992px) { 
+    
+    #menu a:hover { 
+    
+    border-bottom: 1px solid #dadada; 
+    
+    } 
+    
+     
+    
+    } 
+    
+     
 
