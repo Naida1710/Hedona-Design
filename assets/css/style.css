@@ -21,25 +21,19 @@ body {
      }   
     
          
-
+/* Logo image */
 #logo-container { 
     width: auto; 
-    
     display: flex; 
-    
     justify-content: center; 
-    
     align-items: center;  
-    
     } 
     
-     
-    
-    #logo-container a { 
-    
+#logo-container a { 
     border-bottom: none !important; 
+    }
     
-    } 
+    
 /* Header */
 header { 
     background-color: #ffffff; 
@@ -66,6 +60,46 @@ header a {
 header p { 
     line-height: 1.8; 
     } 
+
+ 
+/* Hero image */
+    #hero { 
+
+        height: 800px; 
+        
+        width: 100%; 
+        
+        background: url("../images/hero1.png") no-repeat center center/cover; 
+        
+         
+        
+        } 
+        
+         
+        
+        #cover-text { 
+        
+        background-color: rgba(211, 211, 211, .7); 
+        
+        font-size: 2rem; 
+        
+        text-align: center; 
+        
+        min-height: 200px; 
+        
+        width: 80%; 
+        
+        padding-top: 40px; 
+        
+        padding-left: 10px; 
+        
+        position: absolute; 
+        
+        bottom: 30px; 
+        
+        color: #3a3a3a; 
+        
+        } 
 
 /* Nav bar and menu list */
 nav { 
