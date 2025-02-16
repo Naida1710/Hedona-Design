@@ -16,15 +16,13 @@ body {
      } 
 
      #logo { 
-         width: 70%; 
-        height: auto;  
-        
-        }   
+     width: 70%; 
+     height: auto;  
+     }   
     
          
 
 #logo-container { 
-
     width: auto; 
     
     display: flex; 
@@ -91,6 +89,77 @@ header {
     line-height: 1.8; 
     
     } 
+
+    nav { 
+
+        display: flex; 
+        
+        justify-content: space-between; 
+        
+        align-items: center; 
+        
+        padding: 10px 5px; 
+        
+        width: 100%; 
+        
+        position: relative; 
+        
+        } 
+        
+         
+        
+        #menu, #menu2 {  
+        
+        list-style-type: none; 
+        
+        display: flex; 
+        
+        margin: 0; 
+        
+        padding: 0; 
+        
+        gap: 50px; 
+        
+        align-items: center; 
+        
+        } 
+        
+         
+        
+        #menu li, #menu2 li {  
+        
+        letter-spacing: 2px; 
+        
+        text-decoration: none;  
+        
+        } 
+        
+         
+        
+       
+        
+         
+        
+        
+        
+         
+        
+        
+         
+        
+        #menu li a:hover, #menu2 li a:hover { 
+        
+        border-bottom: 1px solid #dadada; 
+        
+        } 
+        
+         
+        
+        #menu li a.active, #menu2 li a.active { 
+        
+        border-bottom: 1px solid #dadada; 
+        
+        } 
 
 /* Main element takes up all the surplus space, to push the footer down */
 main {
