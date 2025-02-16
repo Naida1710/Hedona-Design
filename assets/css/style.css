@@ -54,10 +54,9 @@ header {
     box-shadow: 0 2px 2px #dadada; 
     border-top: 2px solid #dadada; 
     margin-top: 10px;  
+     } 
     
-    } 
-    
-    header a {  
+header a {  
     
     color: darkgray; 
     
