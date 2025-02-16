@@ -63,13 +63,10 @@ header p {
 
  
 /* Hero image */
-    #hero { 
-
-        height: 800px; 
-        
-        width: 100%; 
-        
-        background: url("../images/hero1.png") no-repeat center center/cover; 
+#hero { 
+    height: 800px; 
+    width: 100%; 
+    background: url("../images/heroheader.png") no-repeat center center/cover; 
         
          
         
