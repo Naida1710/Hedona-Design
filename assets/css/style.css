@@ -1,12 +1,12 @@
 /* Wildcard selector */ 
-
 *  { 
     padding: 0; 
     margin: 0;  
     box-sizing: border-box; 
      } 
-/* General style rules */ 
 
+
+/* General style rules */ 
 body { 
      min-height: 100vh; 
     display: flex; 
@@ -15,13 +15,14 @@ body {
     overflow: auto;  
      } 
 
-     #logo { 
-     width: 70%; 
-     height: auto;  
-     }   
-    
+     
          
 /* Logo image */
+#logo { 
+    width: 70%; 
+    height: auto;  
+    }   
+   
 #logo-container { 
     width: auto; 
     display: flex; 
@@ -170,10 +171,12 @@ nav {
     border-bottom: 1px solid #dadada; 
     } 
 
+
 /* Main element takes up all the surplus space, to push the footer down */
 main {
     flex: 1 0 auto;
 }
+
 
 /* Cake gallery */ 
 .cakes-container { 
