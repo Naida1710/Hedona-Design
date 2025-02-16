@@ -14,8 +14,37 @@ body {
     color: #3a3a3a; 
     overflow: auto;  
      } 
+
+     #logo { 
+         width: 70%; 
+        height: auto;  
+        
+        }   
+    
+         
+
+#logo-container { 
+
+    width: auto; 
+    
+    display: flex; 
+    
+    justify-content: center; 
+    
+    align-items: center;  
+    
+    } 
+    
      
+    
+    #logo-container a { 
+    
+    border-bottom: none !important; 
+    
+    } 
+
 /* Main element takes up all the surplus space, to push the footer down */
 main {
     flex: 1 0 auto;
 }
+
